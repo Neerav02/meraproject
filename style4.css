@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(84, 169, 84);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo{
+    background-image: url("./WhatsApp\ Image\ 2024-12-02\ at\ 15.16.55_4308d081.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 100px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
